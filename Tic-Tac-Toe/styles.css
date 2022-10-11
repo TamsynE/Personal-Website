@@ -1,0 +1,83 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+}
+
+#game-board {
+    margin: auto;
+    width: 90%;
+    height: 80%;
+}
+
+#container {
+    padding: 0;
+    width: 300px;
+    height: 300px;
+    margin:auto;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    padding: 30px;
+    float: left;
+    box-sizing: border-box;
+    font-size: larger;
+    font-size: xx-large;
+}
+
+#box4, #box7 {
+    clear: left;
+}
+
+#box1, #box2, #box3 {
+    border-top: none;
+}
+
+#box1, #box4, #box7 {
+    border-left: none;
+}
+
+#box7, #box8, #box9 {
+    border-bottom: none;
+}
+
+#box9, #box6, #box3 {
+    border-right: none;
+}
+
+#message {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    height: 30px;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#779ECB;
+    box-shadow: 3px 3px 1px 1px rgba(0, 0, 255, 0.1);
+}
+
+button:hover {
+    background-color: lightgrey;
+}
